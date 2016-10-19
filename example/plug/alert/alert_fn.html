@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>实例 - 轮播（Carousel）插件的标题</title>
+    <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../../../scripts/jquery.min.js"></script>
+    <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h3>警告框（Alert）插件 alert('close') 方法</h3>
+<div id="myAlert" class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>成功！</strong>结果是成功的。
+</div>
+<div id="myAlert1" class="alert alert-warning">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>警告！</strong>您的网络连接有问题。
+</div>
+
+<script type="text/javascript">
+    $(function(){
+        $(".close").click(function(){
+            $("#myAlert").alert('close');
+        });
+    });
+
+</script>
+
+
+</body>
+</html>

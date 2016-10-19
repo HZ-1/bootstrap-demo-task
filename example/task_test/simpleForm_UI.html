@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> SmartAdmin (AJAX)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+<div class="row" style="margin: 0px auto 10px 10px">
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+    <button class="btn btn-default" type="button">Button</button>
+</div>
+
+<form class="form-horizontal"
+      style="margin: 10px auto auto auto;border-top: 1px solid #95b8e7;padding: 10px">
+    <div class="form-group has-feedback">
+        <div class="col-md-4 ">
+            <label for="select1" class="col-md-5 control-label">业务模板</label>
+            <div class="col-md-7">
+                <select class="form-control" id="select1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <label for="inputEmail31" class="col-md-4  control-label">Email</label>
+            <div class="col-sm-8">
+                <div class="input-group">
+                    <span class="input-group-addon">@</span>
+                    <input type="email" class="form-control" id="inputEmail31" placeholder="Email">
+                </div>
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span id="inputGroupSuccess3Status" class="sr-only">(success)</span>
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <label class="control-label col-md-6" for="inputSuccess311">Input with success</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputSuccess311" aria-describedby="inputSuccess3Status11">
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span id="inputSuccess3Status11" class="sr-only">(success)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group has-feedback">
+        <div class="col-md-4 ">
+            <label class="col-md-5  control-label" for="a1">产品代码</label>
+            <div class="col-md-7">
+                <input id="a1" type="file" placeholder="Choose a file">
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <label class="col-md-4  control-label">选择时间</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control ">
+                       <span class="form-control-feedback">
+                            <div class="glyphicon glyphicon-chevron-up "
+                                 style="position: relative;top: -6px;right: -18px" aria-hidden="true"></div>
+                            <div class="glyphicon glyphicon-chevron-down " style="position: relative;top:8px"
+                                 aria-hidden="true"></div>
+                       </span>
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <label class="col-md-6  control-label">选择角色</label>
+
+            <div class="col-md-6">
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                </label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="form-group has-feedback">
+        <div class="col-md-4 ">
+            <label class="col-md-5  control-label" for="a2">日历时间</label>
+
+            <div class="col-md-7">
+                <input class="form-control" id="a2" type="date">
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <label class="col-md-4  control-label">复选框</label>
+
+            <div class="col-md-8">
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> 选项 1
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> 选项 2
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3"> 选项 3
+                </label>
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <label class="control-label col-md-6">产品金额：</label>
+
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-addon">%</span>
+                    <input type="text" class="form-control">
+                </div>
+                <span class="glyphicon glyphicon-align-center form-control-feedback"></span>
+            </div>
+        </div>
+
+    </div>
+</form>
+</body>
+
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>
