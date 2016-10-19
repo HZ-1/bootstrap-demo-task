@@ -7,6 +7,9 @@
 
 bootstrap的示例：
 有一些是在[bootstrap教程](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)整理出，这里面有12个插件的示例demo，是在网址中为学习插件，专门自己写的demo，如果要了解某插件，可以看；
+
+<br>
+
 有一些是在其他学习过程中累积下的示例，包含了bootstrap的ui、form布局、页面整体布局。
 
 ### 目录介绍
